@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+body {
+  background: url(./public/background.JPG) no-repeat center fixed;
+  background-size: cover;
+  max-height: 100vh;
+  padding: 0.5rem;
+}
+
+section.centerpiece {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.main-text {
+  font-size: 4rem;
+}
+
+.iconify {
+  width: 3rem;
+  height: auto;
+  margin: 2rem;
+}
