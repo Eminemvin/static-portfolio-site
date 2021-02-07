@@ -40,13 +40,22 @@ nav {
 }
 
 .big-text {
+  font-size: 5rem;
+  font-family: "Lobster", cursive;
+  font-weight: lighter;
+}
+.centerpiece {
   position: absolute;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -30%);
-  font-size: 5rem;
-  font-family: "Lobster", cursive;
-  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sub-heading {
+  font-size: 3rem;
+  font-family: "Heebo", sans-serif;
 }
 
 .heading {
